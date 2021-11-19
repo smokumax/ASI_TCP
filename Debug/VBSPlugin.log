@@ -1,0 +1,7 @@
+﻿cl : wiersz polecenia warning D9035: Opcja "Gm" jest przestarzała i będzie usunięta w przyszłych wydaniach
+  VBSPlugin.cpp
+C:\Users\maxmi\Downloads\VBS3 ASI-20211115T131526Z-001\VBS3 ASI\VBSPlugin\VBSPlugin.cpp(75,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+VBSPlugin.obj : warning LNK4075: zignorowano opcję „/EDITANDCONTINUE” z powodu określenia opcji „/SAFESEH”
+.\VBSPlugin.def(2): warning LNK4017: instrukcja DESCRIPTION nie jest obsługiwana dla platformy docelowej; zignorowano
+     Trwa tworzenie biblioteki .\Debug/VBSPlugin.lib i obiektu .\Debug/VBSPlugin.exp
+  VBSPlugin.vcxproj -> C:\Users\maxmi\Downloads\VBS3 ASI-20211115T131526Z-001\VBS3 ASI\VBSPlugin\Debug\VBSPlugin.dll

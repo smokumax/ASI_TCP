@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Dla właściwości IntermediateOutputPath po raz pierwszy jest ustawiana jakaś wartość, a tymczasem właściwość ta była już wykorzystywana w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Dla właściwości DebugType po raz pierwszy jest ustawiana jakaś wartość, a tymczasem właściwość ta była już wykorzystywana w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Dla właściwości CleanFile po raz pierwszy jest ustawiana jakaś wartość, a tymczasem właściwość ta była już wykorzystywana w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5).
+  VBSPlugin.cpp
+.\VBSPlugin.def(2): warning LNK4017: instrukcja DESCRIPTION nie jest obsługiwana dla platformy docelowej; zignorowano
+     Trwa tworzenie biblioteki .\Release/VBSPlugin.lib i obiektu .\Release/VBSPlugin.exp
+  VBSPlugin.vcxproj -> C:\Users\maxmi\Downloads\VBS3 ASI-20211115T131526Z-001\VBS3 ASI\VBSPlugin\Release\VBSPlugin.dll

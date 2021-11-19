@@ -1,0 +1,5 @@
+﻿  VBSPlugin.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: Wartość TargetPath(C:\Users\maxmi\Downloads\VBS3 ASI-20211115T131526Z-001\VBS3 ASI\VBSPlugin\x64\Release\VBSPlugin.dll) jest niezgodna z wartością właściwości OutputFile obiektu Linker (C:\Users\maxmi\Downloads\VBS3 ASI-20211115T131526Z-001\VBS3 ASI\VBSPlugin\Release\VBSPlugin.dll). Może to spowodować, że projekt zostanie niepoprawnie skompilowany. Aby rozwiązać ten problem, upewnij się, że wartości właściwości $(OutDir), $(TargetName) i $(TargetExt) są zgodne z wartością określoną we właściwości %(Link.OutputFile). 
+.\VBSPlugin.def(2): warning LNK4017: instrukcja DESCRIPTION nie jest obsługiwana dla platformy docelowej; zignorowano
+     Trwa tworzenie biblioteki .\Release/VBSPlugin.lib i obiektu .\Release/VBSPlugin.exp
+  VBSPlugin.vcxproj -> C:\Users\maxmi\Downloads\VBS3 ASI-20211115T131526Z-001\VBS3 ASI\VBSPlugin\x64\Release\VBSPlugin.dll

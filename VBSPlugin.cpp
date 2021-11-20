@@ -40,15 +40,19 @@ using namespace std;
 char r[200] = "BRAK";
 char rc[200];
 
-
 int i = 0;
 bool UNLOAD = false;
-
 bool ACTION = false;
 
 
 
 
+
+void TCPthreadCHCEK(int argc, char* argv[])
+{
+
+
+}
 
 void TCPthread()
 {
@@ -130,17 +134,14 @@ void TCPthread()
         do {
 
             iResult = recv(ClientSocket, recvbuf, recvbuflen, 0);
-
             ACTION = true;
 
-
-
-            /*
+          
             if (iResult > 0) {
                 //printf("Bytes received: %d\n", iResult);
 
               
-                // Echo the buffer back to the sender
+                /*Echo the buffer back to the sender
                 iSendResult = send(ClientSocket, r, 200, 0);
                 if (iSendResult == SOCKET_ERROR) {
                     //printf("send failed with error: %d\n", WSAGetLastError());
@@ -149,7 +150,7 @@ void TCPthread()
                     //return 1;
                     clientON = false;
                 }
-
+                */
 
                 //printf("Bytes sent: %d\n", iSendResult);
                 if (UNLOAD) {
@@ -165,7 +166,7 @@ void TCPthread()
                 //return 1;
                 clientON = false;
             }
-*/
+
 
 
 
